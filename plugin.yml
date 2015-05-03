@@ -1,0 +1,5 @@
+name:FirstPlugin
+author: Joci5525
+api: [1.11.0]
+version: 1.0.0
+main: joci5525\firstplugin\FirstPlugin
