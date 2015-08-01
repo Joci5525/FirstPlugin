@@ -19,8 +19,7 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
 		switch($cmd->getName()){
 			case "Tutorial":
         			if($sender->hasPermission("tutorial.command.howto") or $sender->hasPermission("tut.command") or $sender->hasPermission("skywars")) { 
-					$sender->sendMessage("----FirstPlugin----");
-					$sender->sendMessage("/tut = Joci5525 ");
+					$sender->sendMessage("FirstPlugin");
 					return true;
         			}else{
         				$sender->sendMessage("You haven't the permission to run this command");
