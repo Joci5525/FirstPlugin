@@ -18,9 +18,9 @@ public function onDisable(){
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
 		switch($cmd->getName()){
 			case "Tutorial":
-        			if($sender->hasPermission("tutorial.command.howto") or $sender->hasPermission("tut.command") or $sender->hasPermission("skywars")) { 
+        			if($sender->hasPermission("firstplugin.command") or $sender->hasPermission("plugin.command") or $sender->hasPermission("skywars")) { 
 					$sender->sendMessage("FirstPlugin");
 					return true;
         			}else{
-        				$sender->sendMessage("You haven't the permission to run this command");
+        				$sender->sendMessage("Nincs jogod ezt a parancsot használni!");
         			}
