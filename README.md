@@ -1,2 +1,2 @@
 # FirstPlugin
-Plugin lollll
+This plugin is just a test plugin!
